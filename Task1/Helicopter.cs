@@ -13,6 +13,12 @@ namespace Task1
             : base(year, price, fuelCapacity)
         {
             NumberOfSeats=numberOfSeats;
+            Console.WriteLine("Your helicopter");
+            DisplayInfo();
+
+            Console.WriteLine("Fuel capaciity : " + FuelCapacity);
+            Console.WriteLine("Number of seats : " + NumberOfSeats);
+
         }
     }
 }

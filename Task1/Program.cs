@@ -6,7 +6,7 @@
         {
             BMW air = new BMW(2013, 10_000_000);
 
-            
+            Airplane air2 = new Airplane(1990, 99_999_999, 8000, false);
 
 
         }

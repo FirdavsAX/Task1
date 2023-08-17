@@ -13,6 +13,12 @@ namespace Task1
              base(year,price,fuelCapacity)
         {
             HasBusinessClass=hasBusinessClass;
+
+            Console.WriteLine("Your airplane");
+            DisplayInfo();
+
+            Console.WriteLine("Fuel capaciity : " + FuelCapacity);
+            Console.WriteLine("Has a business class : " + HasBusinessClass);
         }
     }
 }
